@@ -5,4 +5,5 @@
 <h2>Technological stack</h2>
 <p>Python (Tkinter, keyboard)</p>
 
-![image](https://user-images.githubusercontent.com/42188529/178153786-ce47071c-b16b-4ac7-ba2e-cc28829083e8.png)
+![image](https://user-images.githubusercontent.com/42188529/178154722-d69f2238-f2d6-46fe-999e-7c76942214fe.png)
+
