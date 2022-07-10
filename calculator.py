@@ -85,9 +85,9 @@ buton_close.grid(row=5, column=3)
 buton_power = tk.Button(app, text='x^y', command=lambda: add_to_calculation(
     "**"), width=5, font=("Arial", 14))
 buton_power.grid(row=6, column=1)
-buton_modulo = tk.Button(app, text='Modulo', command=lambda: add_to_calculation(
+buton_mod = tk.Button(app, text='Mod', command=lambda: add_to_calculation(
     "%"), width=5, font=("Arial", 14))
-buton_modulo.grid(row=6, column=2)
+buton_mod.grid(row=6, column=2)
 buton_divcal = tk.Button(app, text='//', command=lambda: add_to_calculation(
     "//"), width=5, font=("Arial", 14))
 buton_divcal.grid(row=6, column=3)
@@ -103,7 +103,7 @@ add_hotkey('shift+6', buton_power.invoke)
 add_hotkey('-', buton_minus.invoke)
 add_hotkey('*', buton_mul.invoke)
 add_hotkey('/', buton_div.invoke)
-add_hotkey('shift+5', buton_modulo.invoke)
+add_hotkey('shift+5', buton_mod.invoke)
 add_hotkey('1', buton_1.invoke)
 add_hotkey('2', buton_2.invoke)
 add_hotkey('3', buton_3.invoke)
