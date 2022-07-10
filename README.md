@@ -1,7 +1,7 @@
 <h1>Simple Calculator</h1>
 
 <h2>Description</h2>
-<p> It is a simple calculator made with a GUI.</p>
+<p> It is a simple calculator made with a GUI and keyboard control</p>
 <h2>Technological stack</h2>
 <p>Python (Tkinter, keyboard)</p>
 
